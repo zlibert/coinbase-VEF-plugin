@@ -1,9 +1,27 @@
-# coinbase-VEF-plugin
-Coinbase plugin to add VEF exchange rate and calculator
+	=========================================
+	|| Bitcoin Venezuela Coinbase's Plugin ||
+	=========================================
 
-Small plugin using JavaScript to add VEF exchange rate and calculator to make easier calculations for end-users from Venezuela,
-users should feel like if they almost were sending local fiat money.
+A Chrome plugin that modifies Coinbase's dashboard and send funds web page to add market prices of bitcoin in VEF.
 
-Code and DOM management needs improvement.
+Purpose: to aid venezuelan users adoption and contribute with bitcoin massification.
 
-Aim is to use market rates for VEF, instead of fake goverment rates.
+Todo list:
+
+0.- Plugin was made using the Desktop version of Coinbase. Responsive design wasn't considered. Plugin must be fixed to "survive" changes on tablets-mobile screensizes
+
+1.- After clicking button to Send Funds, form modifications are lost due DOM changes, even hitting back. Confirmation amount should also contain VEF amount as primary.
+
+2.- Implement ETH exchange rates
+
+3.- Implement angular real time field binding instead of basic JS binding
+
+4.- Check code: development was made and first working version was released. Code isn't optimized neither comes from an experienced front end developer. Also lack of financing makes it hard to release a "near perfection" version
+
+5.- Transactions log in VEF isn't implemented
+
+6.- When user adds VEF amount and it get's transformed to btc, it should also format the VEF input if the user didn't input decimal separator and two decimals
+
+
+
+	ZLibert
