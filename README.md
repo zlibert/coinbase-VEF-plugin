@@ -16,7 +16,7 @@ Todo list:
 
 3.- Implement angular real time field binding instead of basic JS binding
 
-4.- Check code: development was made and first working version was released. Code isn't optimized neither comes from an experienced front end developer. Also lack of financing makes it hard to release a "near perfection" version
+4.- Check code: development was made and first working version was released. Code isn't optimized neither comes from an experienced front end developer.
 
 5.- Transactions log in VEF isn't implemented
 
